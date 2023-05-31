@@ -1,0 +1,18 @@
+.regis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 65vh;
+    margin-top: 2px;
+    margin-bottom: 35px;
+}
+.form-text{
+    border: 1px solid black;
+    padding: 30px;
+}
+button:disabled,
+button:disabled:hover,
+button:disabled:active{
+  cursor: not-allowed;
+}
